@@ -1,0 +1,34 @@
+package:
+  name: js-blob
+  publish:
+    license: ''
+    version: ''
+    location:
+      githubOwner: ''
+      githubRepo: ''
+  dependencies:
+    - arraybuffer-types
+    - arrays
+    - effect
+    - integers
+    - js-promise
+    - maybe
+    - media-types
+    - newtype
+    - nullable
+    - numbers
+    - prelude
+    - unsafe-coerce
+  test:
+    main: Test.Main
+    dependencies:
+      - aff
+      - arraybuffer-types
+      - arrays
+      - assert
+      - console
+      - js-promise-aff
+workspace:
+  extraPackages: {}
+  packageSet:
+    registry: 60.5.0
