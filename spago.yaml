@@ -28,7 +28,4 @@ package:
       - assert
       - console
       - js-promise-aff
-workspace:
-  extraPackages: {}
-  packageSet:
-    registry: 60.5.0
+workspace: {}
